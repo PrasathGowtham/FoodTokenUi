@@ -70,7 +70,7 @@ function Cart(props) {
             <List>
                 {navItems.map((item) => (
                     <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }} onClick={()=>navigate("/")>
+                        <ListItemButton sx={{ textAlign: 'center' }} onClick={()=>navigate("/")}>
                             <ListItemText primary={item} />
                         </ListItemButton>
                     </ListItem>
