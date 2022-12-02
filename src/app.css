@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Roboto+Condensed&family=The+Nautigal:wght@700&family=Yellowtail&display=swap");
+.formcontainer{
+    background: rgba(214, 244, 241, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(4, 4, 12, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.loginpage,.signuppage{
+   display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./images/pexels-photo-349610.jpeg");
+    background-size: cover;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.homepage{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    background-image: url("./images/pexels-photo-349610.jpeg");
+}
+.body{
+    background-image: url("./images/pexels-photo-349610.jpeg"); 
+    background-size: cover;
+}
