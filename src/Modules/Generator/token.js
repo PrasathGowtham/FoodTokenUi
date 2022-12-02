@@ -48,7 +48,7 @@ function Food(props) {
     useEffect(() => {
         async function getData() {
             const response = await axios.get(
-                "http://localhost:3001/order/count"
+                "https://foodtoken.onrender.com/order/count"
             );
             setcount(response.data);
         }
@@ -65,7 +65,7 @@ function Food(props) {
     useEffect(() => {
         async function getData() {
             const response = await axios.get(
-                "http://localhost:3001/order/token"
+                "https://foodtoken.onrender.com/order/token"
             );
             setorder(response.data);
         }
