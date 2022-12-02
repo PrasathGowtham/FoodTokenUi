@@ -1,1 +1,1 @@
-export const API_URL = "http://localhost:3001/order";
+export const API_URL = "https://foodtoken.onrender.com/order";
