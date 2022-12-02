@@ -127,6 +127,10 @@ function Login() {
                         <Button variant="contained" href="#contained-buttons" onClick={() => navigate("/signup")}>
                             Signup
                         </Button>
+  <p>
+                            email:user123@gmail.com
+                            password:123456
+                        </p>
                     </div>
                 </Box>
             </div>
