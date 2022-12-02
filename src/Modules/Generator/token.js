@@ -21,7 +21,7 @@ import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import { Padding } from "@mui/icons-material";
 const drawerWidth = 240;
-const navItems = ['token'];
+const navItems = ['Logout'];
 function Food(props) {
 
     <Box
@@ -86,7 +86,7 @@ function Food(props) {
             <List>
                 {navItems.map((item) => (
                     <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }}>
+                        <ListItemButton sx={{ textAlign: 'center' }} onClick={()=>navigate("/")}>
                             <ListItemText primary={item} />
                         </ListItemButton>
                     </ListItem>
