@@ -50,7 +50,7 @@ function Cart(props) {
         e.preventDefault();
       
         try {
-            const responce = await axios.post("http://localhost:3001/order/token", { ...Item });
+            const responce = await axios.post("https://foodtoken.onrender.com/order/token", { ...Item });
             console.log(responce)
             if(responce){
                 navigate("/token")
